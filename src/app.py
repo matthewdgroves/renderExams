@@ -18,7 +18,7 @@ summary_dict = {
     }
 summary = pd.DataFrame.from_dict(summary_dict)
 
-fig = px.scatter(summary, x="Review Packet Total", y="Final Exam", hover_name="Student", trendline="ols", title="Performance vs. Preparation on the Exam")
+fig = px.scatter(summary, x="Review Packet Total", y="Final Exam", hover_name="Student", trendline="ols", title="Performance vs Preparation on the Exam")
 
 app = Dash()
 server = app.server
