@@ -24,6 +24,5 @@ Sphinx==7.3.7
 thread==2.0.3
 tornado==6.4
 urllib3_secure_extra==0.1.0
-xmlrpc
 gunicorn
 dash-tools
